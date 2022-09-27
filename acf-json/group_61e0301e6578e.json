@@ -1,0 +1,134 @@
+{
+    "key": "group_61e0301e6578e",
+    "title": "FC: Address",
+    "fields": [
+        {
+            "key": "field_61e032066f9dd",
+            "label": "Map",
+            "name": "map",
+            "type": "google_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "",
+            "center_lng": "",
+            "zoom": "",
+            "height": ""
+        },
+        {
+            "key": "field_61e03022fbd2a",
+            "label": "Title",
+            "name": "title",
+            "type": "title",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "replace": "",
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 2,
+            "default_level": 3
+        },
+        {
+            "key": "field_61e030defbd2b",
+            "label": "Text",
+            "name": "text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 1,
+            "wld_height": 150
+        },
+        {
+            "key": "field_61e03187fbd2f",
+            "label": "Contact Phone",
+            "name": "contact_phone",
+            "type": "wld_contact_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "class_attr": "",
+            "select_link_type": 0,
+            "link_type": "phone",
+            "return_format": "html",
+            "custom_class": 1,
+            "default_value": {
+                "url": "",
+                "title": "",
+                "number": "",
+                "type": "",
+                "class": ""
+            }
+        },
+        {
+            "key": "field_61e031a1fbd30",
+            "label": "Contact Fax",
+            "name": "contact_fax",
+            "type": "wld_contact_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "class_attr": "",
+            "select_link_type": 0,
+            "link_type": "phone",
+            "return_format": "html",
+            "custom_class": 1,
+            "default_value": {
+                "url": "",
+                "title": "",
+                "number": "",
+                "type": "",
+                "class": ""
+            }
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "modified": 1642160444
+}
